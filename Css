@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.phone-preview {
+    margin-right: 30px;
+}
+
+.phone-preview img {
+    max-width: 3000px;
+    height: 700px;
+}
+
+.login-container {
+    background-color: #fff;
+    padding: 20px;
+    border: 3px solid #ddd;
+    text-align: center;
+    width: 350px;
+}
+
+h1 {
+    font-family: 'Billabong', sans-serif;
+    font-size: 50px;
+    color: #262626;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #3897f0;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.facebook-login {
+    background-color: #4267b2;
+}
+
+.divider {
+    margin: 20px 0;
+    position: relative;
+    text-align: center;
+    color: #8e8e8e;
+}
+
+.divider:before, .divider:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 45%;
+    height: 1px;
+    background-color: #ddd;
+}
+
+.divider:before {
+    left: 0;
+}
+
+.divider:after {
+    right: 0;
+}
+
+a {
+    color: #00376b;
+    text-decoration: none;
+    margin: 10px 0;
+}
+
+.signup {
+    margin-top: 20px;
+}
+
+.get-app {
+    margin-top: 20px;
+}
+
+.app-buttons img {
+    width: 135px;
+   
+}
